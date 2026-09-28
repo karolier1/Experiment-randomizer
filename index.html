@@ -1,0 +1,21 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Weiterleitung</title>
+</head>
+
+<body>
+
+<script>
+    const surveys = [
+        "https://example.com/umfrage-A",
+        "https://example.com/umfrage-B",
+        "https://example.com/umfrage-C"
+    ];
+
+    const randomIndex = Math.floor(Math.random() * surveys.length);
+
+    window.location.href = surveys[randomIndex];
+</script>
+
+</body>
+</html>
